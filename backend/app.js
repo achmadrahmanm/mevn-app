@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 }) 
 
 // database stuff
-const uri = "mongodb+srv://achmadrahmanm:hmcepens2016@cluster0.agvad0g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const uri = "mongodb+srv://xxxxxx:xxxxxx@cluster0.agvad0g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
